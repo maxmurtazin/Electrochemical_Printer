@@ -9,7 +9,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f8613b-a9d5-447d-9891-f013cec8dd83" name="Changes" comment="delete garbage" />
+    <list default="true" id="34f8613b-a9d5-447d-9891-f013cec8dd83" name="Changes" comment="I2C hub">
+      <change afterPath="$PROJECT_DIR$/datasheet/PCA9685_PWM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/BatchingExample/BatchingExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/ModuleInfo/ModuleInfo.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/MultiDeviceProxyExample/MultiDeviceProxyExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/ServoEvaluatorExample/ServoEvaluatorExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/SimpleExample/SimpleExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/examples/SoftwareI2CExample/SoftwareI2CExample.ino" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/library.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/library.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/src/PCA9685.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/src/PCA9685.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/PCA9685_16_Channel_PWM_Driver_Module_Library-1.2.15/support files/PCA9685.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660480989663</updated>
       <workItem from="1660480992681" duration="1845000" />
-      <workItem from="1660490794599" duration="344000" />
+      <workItem from="1660490794599" duration="919000" />
     </task>
     <task id="LOCAL-00001" summary="Add draw">
       <created>1660481373965</created>
@@ -68,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660490917781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I2C hub">
+      <created>1660491401593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660491401593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +111,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add draw" />
     <MESSAGE value="delete garbage" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete garbage" />
+    <MESSAGE value="I2C hub" />
+    <option name="LAST_COMMIT_MESSAGE" value="I2C hub" />
   </component>
 </project>
