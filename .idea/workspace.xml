@@ -9,34 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f8613b-a9d5-447d-9891-f013cec8dd83" name="Changes" comment="PCA9685 Lib">
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/AccelTest/AccelTest.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/BasicStepperDriver/BasicStepperDriver.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/ClockStepper/ClockStepper.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/MicroStepping/MicroStepping.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/MultiAxis/MultiAxis.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/NonBlocking/NonBlocking.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/SpeedProfile/SpeedProfile.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/UnitTest/UnitTest.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/UnitTest/adafruit_feather_m0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/examples/UnitTest/esp8266_nodemcu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/A4988.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/A4988.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/BasicStepperDriver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/BasicStepperDriver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8825.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8825.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8834.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8834.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8880.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/DRV8880.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/MultiDriver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/MultiDriver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/SyncDriver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/StepperDriver-1.3.1/src/SyncDriver.h" afterDir="false" />
+    <list default="true" id="34f8613b-a9d5-447d-9891-f013cec8dd83" name="Changes" comment="stepper and ethernet lib">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660480989663</updated>
       <workItem from="1660480992681" duration="1845000" />
-      <workItem from="1660490794599" duration="1557000" />
+      <workItem from="1660490794599" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="Add draw">
       <created>1660481373965</created>
@@ -110,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660491794485</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="stepper and ethernet lib">
+      <created>1660492494507</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660492494507</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +114,7 @@
     <MESSAGE value="delete garbage" />
     <MESSAGE value="I2C hub" />
     <MESSAGE value="PCA9685 Lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="PCA9685 Lib" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/lib/CD4051_test_code.ino</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="stepper and ethernet lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="stepper and ethernet lib" />
   </component>
 </project>
