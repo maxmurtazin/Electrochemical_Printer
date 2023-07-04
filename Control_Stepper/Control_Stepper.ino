@@ -26,7 +26,7 @@ const int MV001 = 2 ;
 String readString;
 int ledPin = 5;
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(192, 168, 88, 177);
+IPAddress ip(192, 168, 0, 167);
 
 EthernetServer server(80);
 void setup(){

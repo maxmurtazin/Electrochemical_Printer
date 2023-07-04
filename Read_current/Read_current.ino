@@ -13,9 +13,9 @@ Adafruit_INA219 ina219;
 #include <Ethernet2.h>
 
 // MAC-адрес контроллера
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xAD };
 // задаем статический IP-адрес
-IPAddress ip(192, 168, 88, 177);
+IPAddress ip(192, 168, 0, 103);
 String readString;
 // инициализируем библиотеку Ethernet Server
 // с необходимыми вам IP-адресом и портом
@@ -27,14 +27,14 @@ void setup()
 //DAC 
   Serial.begin(9600);
   DAC.init(0x62, REF_VOLTAGE);
-
+ ina219.begin();
  // Initialize the INA219.
   // By default the initialization will use the largest range (32V, 2A).  However
   // you can call a setCalibration function to change this range (see comments).
-  if (! ina219.begin()) {
-    Serial.println("Failed to find INA219 chip");
-    while (1) { delay(10); }
-  }
+  // if (! ina219.begin()) {
+  //   Serial.println("Failed to find INA219 chip");
+  //   while (1) { delay(10); }
+  // }
   // To use a slightly lower 32V, 1A range (higher precision on amps):
   ina219.setCalibration_32V_1A();
   // Or to use a lower 16V, 400mA range (higher precision on volts and amps):
