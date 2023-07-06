@@ -1,9 +1,12 @@
 #include "Wire.h"
 #include "DFRobot_MCP4725.h"
 #include <Adafruit_INA219.h>
+#include <TroykaCurrent.h>
 #define  REF_VOLTAGE    4850
 DFRobot_MCP4725 DAC;
 Adafruit_INA219 ina219;
+ACS712 sensorCurrent(A0);
+
 // OUTPUT_VOLTAGE_DAC = 30;        // unit : mV 
 //int REG_OUTPUT_VOLTAGE_DAC = 0;
  int mV=30;
@@ -34,7 +37,7 @@ void setup()
   //  if (! ina219.begin()) {
   //    Serial.println("Failed to find INA219 chip");
   //    while (1) { delay(10); }
-  // }
+  //  }
   // To use a slightly lower 32V, 1A range (higher precision on amps):
   ina219.setCalibration_32V_1A();
   // Or to use a lower 16V, 400mA range (higher precision on volts and amps):
@@ -83,7 +86,8 @@ float busvoltage_OUT = 0;
   float current_mA = 0;
  
  busvoltage_OUT = ina219.getBusVoltage_V();
-  current_mA = ina219.getCurrent_mA();
+ // current_mA = ina219.getCurrent_mA();
+ current_mA = sensorCurrent.readCurrentDC();
  
  // Serial.print("Bus Voltage:   "); Serial.print(busvoltage_OUT); Serial.println(" V");
  
@@ -157,7 +161,7 @@ float busvoltage_OUT = 0;
 
              float sensorReading2 = current_mA;
             client.print(" Current_OUT");
-            client.print(" mA ");
+            client.print(" A ");
             client.print(sensorReading2);
             client.println("<br />");
 
