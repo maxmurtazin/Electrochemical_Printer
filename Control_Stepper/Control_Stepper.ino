@@ -48,8 +48,8 @@ void setup(){
      Serial.begin(9600);
   // ждём, пока не откроется монитор последовательного порта
   // для того, чтобы отследить все события в программе
-  while (!Serial) {
-  }
+  // while (!Serial) {
+  // }
   Serial.print("Serial init OK\r\n");
   // запускаем Ethernet-соединение:
   if (Ethernet.begin(mac) == 0) {
