@@ -13,9 +13,9 @@ ACS712 sensorCurrent(A0);
 
 
  
-const pin_t latchPin = 53; // Pin connected to ST_CP of 74HC595
-const pin_t dataPin = 51;  // Pin connected to DS of 74HC595
-const pin_t clockPin = 52; // Pin connected to SH_CP of 74HC595
+const pin_t latchPin = 3; // Pin connected to ST_CP of 74HC595
+const pin_t dataPin = 2;  // Pin connected to DS of 74HC595
+const pin_t clockPin = 4; // Pin connected to SH_CP of 74HC595
  
 // Instantiate a shift register on the correct pins, most significant bit first,
 // and a total of 8 outputs.
@@ -94,7 +94,7 @@ int REG_VOLT (int mV){ //
 void loop()
 {
  // Toggle the state of the LED every 1/2 second
-  digitalWrite(ledPin1, HIGH);
+ // digitalWrite(ledPin1, HIGH);
   
 
 
@@ -172,6 +172,10 @@ float busvoltage_OUT = 0;
                     client.println("<H2><a href=\"/?DAC_OFF\"\">DAC OFF</a><br></H2>");
 
 
+                    client.println("<H2><a href=\"/?SHREG_ON\"\"> SHREG_ON</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF\"\"> SHREG_OFF</a><br></H2>");
+
+
                     
          
 
@@ -228,6 +232,21 @@ float busvoltage_OUT = 0;
                     {
                       mV =  2000 ;
                     }
+
+                    ////////SH_REG
+
+                    if(readString.indexOf("?SHREG_ON") > -1) /// 3V
+                    {
+                      
+                        digitalWrite(ledPin1, HIGH);//test
+                    }
+
+                    if(readString.indexOf("?SHREG_OFF") > -1) /// 3V
+                    {
+                     
+                        digitalWrite(ledPin1, LOW);
+                    }
+                    /////////////
 
 
 
