@@ -1,3 +1,7 @@
+#include <Arduino_Helpers.h> // Include the Arduino Helpers library.
+#include <AH/Hardware/ExtendedInputOutput/ShiftRegisterOut.hpp>
+using namespace ExtIO; // Bring the ExtIO pin functions into your sketch
+
 #include "Wire.h"
 #include "DFRobot_MCP4725.h"
 #include <Adafruit_INA219.h>
@@ -6,6 +10,20 @@
 DFRobot_MCP4725 DAC;
 Adafruit_INA219 ina219;
 ACS712 sensorCurrent(A0);
+
+
+ 
+const pin_t latchPin = 53; // Pin connected to ST_CP of 74HC595
+const pin_t dataPin = 51;  // Pin connected to DS of 74HC595
+const pin_t clockPin = 52; // Pin connected to SH_CP of 74HC595
+ 
+// Instantiate a shift register on the correct pins, most significant bit first,
+// and a total of 8 outputs.
+ShiftRegisterOut<64> sreg {dataPin, clockPin, latchPin, MSBFIRST};//количество пинов сдвигового регистра
+//// SH REG
+const pin_t ledPin1 = sreg.pin(1); 
+const pin_t ledPin2 = sreg.pin(8);// first pin of the shift register
+ 
 
 // OUTPUT_VOLTAGE_DAC = 30;        // unit : mV 
 //int REG_OUTPUT_VOLTAGE_DAC = 0;
@@ -27,6 +45,7 @@ EthernetServer server(80);
 
 void setup()
 {
+   sreg.begin(); 
 //DAC 
   Serial.begin(9600);
   DAC.init(0x62, REF_VOLTAGE);
@@ -74,6 +93,11 @@ int REG_VOLT (int mV){ //
 
 void loop()
 {
+ // Toggle the state of the LED every 1/2 second
+  digitalWrite(ledPin1, HIGH);
+  
+
+
 //DAC///////////////////////////////////
 REG_VOLT(mV);
   //Serial.print(OUTPUT_VOLTAGE_DAC); 
