@@ -21,7 +21,7 @@ const pin_t clockPin = 4; // Pin connected to SH_CP of 74HC595
 // and a total of 8 outputs.
 ShiftRegisterOut<64> sreg {dataPin, clockPin, latchPin, MSBFIRST};//количество пинов сдвигового регистра
 //// SH REG
-const pin_t ledPin1 = sreg.pin(1); 
+const pin_t ledPin1 = sreg.pin(0); 
 const pin_t ledPin2 = sreg.pin(8);// first pin of the shift register
  
 
@@ -172,8 +172,11 @@ float busvoltage_OUT = 0;
                     client.println("<H2><a href=\"/?DAC_OFF\"\">DAC OFF</a><br></H2>");
 
 
-                    client.println("<H2><a href=\"/?SHREG_ON\"\"> SHREG_ON</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF\"\"> SHREG_OFF</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_ON1\"\"> SHREG_ON1</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF1\"\"> SHREG_OFF1</a><br></H2>");
+
+                    client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
 
 
                     
@@ -235,18 +238,30 @@ float busvoltage_OUT = 0;
 
                     ////////SH_REG
 
-                    if(readString.indexOf("?SHREG_ON") > -1) /// 3V
+                    if(readString.indexOf("?SHREG_ON1") > -1) /// 3V
                     {
                       
                         digitalWrite(ledPin1, HIGH);//test
                     }
 
-                    if(readString.indexOf("?SHREG_OFF") > -1) /// 3V
+                    if(readString.indexOf("?SHREG_OFF1") > -1) /// 3V
                     {
                      
                         digitalWrite(ledPin1, LOW);
                     }
                     /////////////
+
+                     if(readString.indexOf("?SHREG_ON2") > -1) /// 3V
+                    {
+                      
+                        digitalWrite(ledPin2, HIGH);//test
+                    }
+
+                    if(readString.indexOf("?SHREG_OFF2") > -1) /// 3V
+                    {
+                     
+                        digitalWrite(ledPin2, LOW);
+                    }
 
 
 
