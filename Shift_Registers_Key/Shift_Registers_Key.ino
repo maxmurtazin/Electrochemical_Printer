@@ -257,101 +257,101 @@ float busvoltage_OUT = 0;
                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
                     client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON3\"\"> SHREG_ON3</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF3\"\"> SHREG_OFF3</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON4\"\"> SHREG_ON4</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF4\"\"> SHREG_OFF4</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON5\"\"> SHREG_ON5</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF5\"\"> SHREG_OFF5</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON6\"\"> SHREG_ON6</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF6\"\"> SHREG_OFF6</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON7\"\"> SHREG_ON7</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF7\"\"> SHREG_OFF7</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON8\"\"> SHREG_ON8</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF8\"\"> SHREG_OFF8</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON9\"\"> SHREG_ON9</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF9\"\"> SHREG_OFF9</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON10\"\"> SHREG_ON10</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF10\"\"> SHREG_OFF10</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON11\"\"> SHREG_ON11</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF11\"\"> SHREG_OFF11</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON12\"\"> SHREG_ON12</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF12\"\"> SHREG_OFF12</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON13\"\"> SHREG_ON13</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF13\"\"> SHREG_OFF13</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON14\"\"> SHREG_ON14</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF14\"\"> SHREG_OFF14</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON15\"\"> SHREG_ON15</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF15\"\"> SHREG_OFF15</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON16\"\"> SHREG_ON16</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF16\"\"> SHREG_OFF16</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON17\"\"> SHREG_ON17</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF17\"\"> SHREG_OFF17</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON18\"\"> SHREG_ON18</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF18\"\"> SHREG_OFF18</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON19\"\"> SHREG_ON19</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF19\"\"> SHREG_OFF19</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON20\"\"> SHREG_ON20</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF20\"\"> SHREG_OFF20</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON21\"\"> SHREG_ON21</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF21\"\"> SHREG_OFF21</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON22\"\"> SHREG_ON22</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF22\"\"> SHREG_OFF22</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON23\"\"> SHREG_ON23</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF23\"\"> SHREG_OFF23</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON24\"\"> SHREG_ON24</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF24\"\"> SHREG_OFF24</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON25\"\"> SHREG_ON25</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF25\"\"> SHREG_OFF25</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON26\"\"> SHREG_ON26</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF26\"\"> SHREG_OFF26</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON27\"\"> SHREG_ON27</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF27\"\"> SHREG_OFF27</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON28\"\"> SHREG_ON28</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF28\"\"> SHREG_OFF28</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON29\"\"> SHREG_ON29</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF29\"\"> SHREG_OFF29</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON30\"\"> SHREG_ON30</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF30\"\"> SHREG_OFF30</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON31\"\"> SHREG_ON31</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF31\"\"> SHREG_OFF31</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON32\"\"> SHREG_ON32</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF32\"\"> SHREG_OFF32</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON33\"\"> SHREG_ON33</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF33\"\"> SHREG_OFF33</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
+                     client.println("<H2><a href=\"/?SHREG_ON34\"\"> SHREG_ON34</a><br></H2>");
+                    client.println("<H2><a href=\"/?SHREG_OFF34\"\"> SHREG_OFF34</a><br></H2>");
 
                      client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
                     client.println("<H2><a href=\"/?SHREG_OFF2\"\"> SHREG_OFF2</a><br></H2>");
