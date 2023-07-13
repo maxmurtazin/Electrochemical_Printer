@@ -251,7 +251,7 @@ float busvoltage_OUT = 0;
                     //////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-                    client.println("<H2><a href=\"/?SHREG_ON1\"\"> SHREG_ON1</a><br></H2>");
+                  PROGMEM  client.println("<H2><a href=\"/?SHREG_ON1\"\"> SHREG_ON1</a><br></H2>");
                     client.println("<H2><a href=\"/?SHREG_OFF1\"\"> SHREG_OFF1</a><br></H2>");
 
                     client.println("<H2><a href=\"/?SHREG_ON2\"\"> SHREG_ON2</a><br></H2>");
