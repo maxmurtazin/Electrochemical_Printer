@@ -506,7 +506,7 @@ float busvoltage_OUT = 0;
 
                     if(readString.indexOf("?SHREG_ON1") > -1) /// 1
                     {
-                        digitalWrite(ledPin3, HIGH);//test
+                        digitalWrite(ledPin1, HIGH);//test
                      // Serial.println("1_ON"); 
                     }
 
