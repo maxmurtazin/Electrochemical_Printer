@@ -13,9 +13,9 @@ ACS712 sensorCurrent(A0);
 
 
  
-const pin_t latchPin = 3; // Pin connected to ST_CP of 74HC595
-const pin_t dataPin = 2;  // Pin connected to DS of 74HC595
-const pin_t clockPin = 4; // Pin connected to SH_CP of 74HC595
+const pin_t latchPin = 3; // Pin connected to ST_CP of 74HC595 (violet_T)
+const pin_t dataPin = 2;  // Pin connected to DS of 74HC595 (grey_D)
+const pin_t clockPin = 4; // Pin connected to SH_CP of 74HC595 (blue_H)
  
 // Instantiate a shift register on the correct pins, most significant bit first,
 // and a total of 8 outputs.
