@@ -347,99 +347,99 @@ float busvoltage_OUT = 0;
                      client.println("<H2><a href=\"/?SHREG_ON32\"\"> SHREG_ON32</a><br></H2>");
                     client.println("<H2><a href=\"/?SHREG_OFF32\"\"> SHREG_OFF32</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON33\"\"> SHREG_ON33</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF33\"\"> SHREG_OFF33</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON33\"\"> SHREG_ON33</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF33\"\"> SHREG_OFF33</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON34\"\"> SHREG_ON34</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF34\"\"> SHREG_OFF34</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON34\"\"> SHREG_ON34</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF34\"\"> SHREG_OFF34</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON35\"\"> SHREG_ON35</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF35\"\"> SHREG_OFF35</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON35\"\"> SHREG_ON35</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF35\"\"> SHREG_OFF35</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON36\"\"> SHREG_ON36</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF36\"\"> SHREG_OFF36</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON36\"\"> SHREG_ON36</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF36\"\"> SHREG_OFF36</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON37\"\"> SHREG_ON37</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF37\"\"> SHREG_OFF37</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON37\"\"> SHREG_ON37</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF37\"\"> SHREG_OFF37</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON38\"\"> SHREG_ON38</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF38\"\"> SHREG_OFF38</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON38\"\"> SHREG_ON38</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF38\"\"> SHREG_OFF38</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON39\"\"> SHREG_ON39</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF39\"\"> SHREG_OFF39</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON39\"\"> SHREG_ON39</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF39\"\"> SHREG_OFF39</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON40\"\"> SHREG_ON40</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF40\"\"> SHREG_OFF40</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON40\"\"> SHREG_ON40</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF40\"\"> SHREG_OFF40</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON41\"\"> SHREG_ON41</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF41\"\"> SHREG_OFF41</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON41\"\"> SHREG_ON41</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF41\"\"> SHREG_OFF41</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON42\"\"> SHREG_ON42</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF42\"\"> SHREG_OFF42</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON42\"\"> SHREG_ON42</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF42\"\"> SHREG_OFF42</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON43\"\"> SHREG_ON43</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF43\"\"> SHREG_OFF43</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON43\"\"> SHREG_ON43</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF43\"\"> SHREG_OFF43</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON44\"\"> SHREG_ON44</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF44\"\"> SHREG_OFF44</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON44\"\"> SHREG_ON44</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF44\"\"> SHREG_OFF44</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON45\"\"> SHREG_ON45</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF45\"\"> SHREG_OFF45</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON45\"\"> SHREG_ON45</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF45\"\"> SHREG_OFF45</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON47\"\"> SHREG_ON47</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF47\"\"> SHREG_OFF47</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON47\"\"> SHREG_ON47</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF47\"\"> SHREG_OFF47</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON48\"\"> SHREG_ON48</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF48\"\"> SHREG_OFF48</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON48\"\"> SHREG_ON48</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF48\"\"> SHREG_OFF48</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON49\"\"> SHREG_ON49</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF49\"\"> SHREG_OFF49</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON49\"\"> SHREG_ON49</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF49\"\"> SHREG_OFF49</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON50\"\"> SHREG_ON50</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF50\"\"> SHREG_OFF50</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON50\"\"> SHREG_ON50</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF50\"\"> SHREG_OFF50</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON51\"\"> SHREG_ON51</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF51\"\"> SHREG_OFF51</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON51\"\"> SHREG_ON51</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF51\"\"> SHREG_OFF51</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON52\"\"> SHREG_ON52</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF52\"\"> SHREG_OFF52</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON52\"\"> SHREG_ON52</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF52\"\"> SHREG_OFF52</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON53\"\"> SHREG_ON53</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF53\"\"> SHREG_OFF53</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON53\"\"> SHREG_ON53</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF53\"\"> SHREG_OFF53</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON54\"\"> SHREG_ON54</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF54\"\"> SHREG_OFF54</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON54\"\"> SHREG_ON54</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF54\"\"> SHREG_OFF54</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON55\"\"> SHREG_ON55</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF55\"\"> SHREG_OFF55</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON55\"\"> SHREG_ON55</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF55\"\"> SHREG_OFF55</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON56\"\"> SHREG_ON56</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF56\"\"> SHREG_OFF56</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON56\"\"> SHREG_ON56</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF56\"\"> SHREG_OFF56</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON57\"\"> SHREG_ON57</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF57\"\"> SHREG_OFF57</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON57\"\"> SHREG_ON57</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF57\"\"> SHREG_OFF57</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON58\"\"> SHREG_ON58</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF58\"\"> SHREG_OFF58</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON58\"\"> SHREG_ON58</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF58\"\"> SHREG_OFF58</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON59\"\"> SHREG_ON59</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF59\"\"> SHREG_OFF59</a><br></H2>");60
+                    //  client.println("<H2><a href=\"/?SHREG_ON59\"\"> SHREG_ON59</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF59\"\"> SHREG_OFF59</a><br></H2>");
                    
-                     client.println("<H2><a href=\"/?SHREG_ON60\"\"> SHREG_ON60</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF60\"\"> SHREG_OFF60</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON60\"\"> SHREG_ON60</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF60\"\"> SHREG_OFF60</a><br></H2>");
 
-                     client.println("<H2><a href=\"/?SHREG_ON61\"\"> SHREG_ON61</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF61\"\"> SHREG_OFF61</a><br></H2>");
+                    //  client.println("<H2><a href=\"/?SHREG_ON61\"\"> SHREG_ON61</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF61\"\"> SHREG_OFF61</a><br></H2>");
 
-                    client.println("<H2><a href=\"/?SHREG_ON62\"\"> SHREG_ON62</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF62\"\"> SHREG_OFF62</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_ON62\"\"> SHREG_ON62</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF62\"\"> SHREG_OFF62</a><br></H2>");
 
-                    client.println("<H2><a href=\"/?SHREG_ON63\"\"> SHREG_ON63</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF63\"\"63 SHREG_OFF63</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_ON63\"\"> SHREG_ON63</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF63\"\"63 SHREG_OFF63</a><br></H2>");
 
 
-                    client.println("<H2><a href=\"/?SHREG_ON64\"\"> SHREG_ON64</a><br></H2>");
-                    client.println("<H2><a href=\"/?SHREG_OFF64\"\"> SHREG_OFF64</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_ON64\"\"> SHREG_ON64</a><br></H2>");
+                    // client.println("<H2><a href=\"/?SHREG_OFF64\"\"> SHREG_OFF64</a><br></H2>");
 
 
 
@@ -964,528 +964,520 @@ float busvoltage_OUT = 0;
                        //  Serial.println("2_LOW");
                     }
 
-                      /////////////////////////////////////////////////////////////32
+                    //   /////////////////////////////////////////////////////////////32
 
-                     if(readString.indexOf("?SHREG_ON32") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON32") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin32, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin32, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF32") > -1) /// 2
-                    {
-                        digitalWrite(ledPin32, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF32") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin32, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       /////////////////////////////////////////////////////////////32
+                    //    /////////////////////////////////////////////////////////////32
 
-                     if(readString.indexOf("?SHREG_ON2") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON2") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin2, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin2, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF2") > -1) /// 2
-                    {
-                        digitalWrite(ledPin2, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF2") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin2, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////33
+                    //   ////////////////////////////////////////////////////////////33
 
-                     if(readString.indexOf("?SHREG_ON33") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON33") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin33, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin33, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF33") > -1) /// 2
-                    {
-                        digitalWrite(ledPin33, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF33") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin33, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////34
+                    //   ////////////////////////////////////////////////////////////34
 
-                     if(readString.indexOf("?SHREG_ON34") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON34") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin34, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin34, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF34") > -1) /// 2
-                    {
-                        digitalWrite(ledPin34, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF34") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin34, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////35
+                    //   ////////////////////////////////////////////////////////////35
 
-                     if(readString.indexOf("?SHREG_ON35") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON35") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin35, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin35, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF35") > -1) /// 2
-                    {
-                        digitalWrite(ledPin35, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF35") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin35, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////36
+                    //    ////////////////////////////////////////////////////////////36
 
-                     if(readString.indexOf("?SHREG_ON36") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON36") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin36, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin36, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF36") > -1) /// 2
-                    {
-                        digitalWrite(ledPin36, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF36") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin36, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      /////////////////////////////////////////////////////////////37
+                    //   /////////////////////////////////////////////////////////////37
 
-                     if(readString.indexOf("?SHREG_ON37") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON37") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin37, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin37, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF37") > -1) /// 2
-                    {
-                        digitalWrite(ledPin37, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF37") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin37, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////38
+                    //   ////////////////////////////////////////////////////////////38
 
-                     if(readString.indexOf("?SHREG_ON38") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON38") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin38, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin38, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF38") > -1) /// 2
-                    39
-                        digitalWrite(ledPin38, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF38") > -1) /// 2
+                    
+                    //     digitalWrite(ledPin38, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////39
+                    //   ////////////////////////////////////////////////////////////39
 
-                     if(readString.indexOf("?SHREG_ON39") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON39") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin39, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin39, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF39") > -1) /// 2
-                    {
-                        digitalWrite(ledPin39, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF39") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin39, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////40
+                    //    ////////////////////////////////////////////////////////////40
 
-                     if(readString.indexOf("?SHREG_ON40") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON40") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin40, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin40, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF40") > -1) /// 2
-                    {
-                        digitalWrite(ledPin40, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF40") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin40, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////41
+                    //   ////////////////////////////////////////////////////////////41
 
-                     if(readString.indexOf("?SHREG_ON41") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON41") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin41, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin41, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF41") > -1) /// 2
-                    {
-                        digitalWrite(ledPin41, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF41") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin41, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////42
+                    //   ////////////////////////////////////////////////////////////42
 
-                     if(readString.indexOf("?SHREG_ON42") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON42") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin42, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin42, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF42") > -1) /// 2
-                    {
-                        digitalWrite(ledPin42, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF42") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin42, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////43
+                    //   ////////////////////////////////////////////////////////////43
 
-                     if(readString.indexOf("?SHREG_ON43") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON43") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin43, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin43, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF43") > -1) /// 2
-                    {
-                        digitalWrite(ledPin43, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF43") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin43, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////44
+                    //    ////////////////////////////////////////////////////////////44
 
-                     if(readString.indexOf("?SHREG_ON44") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON44") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin44, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin44, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF44") > -1) /// 2
-                    {
-                        digitalWrite(ledPin44, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF44") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin44, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////45
+                    //   ////////////////////////////////////////////////////////////45
 
-                     if(readString.indexOf("?SHREG_ON45") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON45") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin45, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin45, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF45") > -1) /// 2
-                    {
-                        digitalWrite(ledPin45, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF45") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin45, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////46
+                    //   ////////////////////////////////////////////////////////////46
 
-                     if(readString.indexOf("?SHREG_ON46") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON46") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin46, HIGH);//test
-                       // Serial.println("2_ON");
-                    }47
-                    if(readString.indexOf("?SHREG_OFF46") > -1) /// 2
-                    {
-                        digitalWrite(ledPin46, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    //     digitalWrite(ledPin46, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
+                    // if(readString.indexOf("?SHREG_OFF46") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin46, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////47
+                    //   ////////////////////////////////////////////////////////////47
 
-                     if(readString.indexOf("?SHREG_ON47") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON47") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin47, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin47, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF47") > -1) /// 2
-                    {
-                        digitalWrite(ledPin47, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF47") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin47, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////48
+                    //    ////////////////////////////////////////////////////////////48
 
-                     if(readString.indexOf("?SHREG_ON48") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON48") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin48, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin48, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF48") > -1) /// 2
-                    {
-                        digitalWrite(ledPin48, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF48") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin48, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////49
+                    //   ////////////////////////////////////////////////////////////49
 
-                     if(readString.indexOf("?SHREG_ON49") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON49") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin49, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin49, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF49") > -1) /// 2
-                    {
-                        digitalWrite(ledPin49, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF49") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin49, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
                       ////////////////////////////////////////////////////////////50
 
-                     if(readString.indexOf("?SHREG_ON50") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON50") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin50, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin50, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF50") > -1) /// 2
-                    {
-                        digitalWrite(ledPin50, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF50") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin50, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////51
+                    //   ////////////////////////////////////////////////////////////51
 
-                     if(readString.indexOf("?SHREG_ON51") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON51") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin51, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin51, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF51") > -1) /// 2
-                    {
-                        digitalWrite(ledPin51, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF51") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin51, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////52
+                    //    ////////////////////////////////////////////////////////////52
 
-                     if(readString.indexOf("?SHREG_ON52") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON52") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin52, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin52, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF52") > -1) /// 2
-                    {
-                        digitalWrite(ledPin52, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF52") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin52, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////53
+                    //   ////////////////////////////////////////////////////////////53
 
-                     if(readString.indexOf("?SHREG_ON53") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON53") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin53, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin53, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF53") > -1) /// 2
-                    {
-                        digitalWrite(ledPin53, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF53") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin53, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////54
+                    //   ////////////////////////////////////////////////////////////54
 
-                     if(readString.indexOf("?SHREG_ON54") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON54") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin54, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin54, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF54") > -1) /// 2
-                    {
-                        digitalWrite(ledPin54, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF54") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin54, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////55
+                    //   ////////////////////////////////////////////////////////////55
 
-                     if(readString.indexOf("?SHREG_ON55") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON55") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin55, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin55, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF55") > -1) /// 2
-                    {
-                        digitalWrite(ledPin55, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF55") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin55, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////56
+                    //    ////////////////////////////////////////////////////////////56
 
-                     if(readString.indexOf("?SHREG_ON56") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON56") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin56, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin56, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF56") > -1) /// 2
-                    {
-                        digitalWrite(ledPin56, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF56") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin56, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////57
+                    //   ////////////////////////////////////////////////////////////57
 
-                     if(readString.indexOf("?SHREG_ON57") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON57") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin57, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin57, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF57") > -1) /// 2
-                    {
-                        digitalWrite(ledPin57, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF57") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin57, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////58
+                    //   ////////////////////////////////////////////////////////////58
 
-                     if(readString.indexOf("?SHREG_ON58") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON58") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin58, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin58, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF58") > -1) /// 2
-                    {
-                        digitalWrite(ledPin58, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF58") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin58, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////59
+                    //   ////////////////////////////////////////////////////////////59
 
-                     if(readString.indexOf("?SHREG_ON59") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON59") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin59, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin59, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF59") > -1) /// 2
-                    {
-                        digitalWrite(ledPin59, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF59") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin59, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       ////////////////////////////////////////////////////////////60
+                    //    ////////////////////////////////////////////////////////////60
 
-                     if(readString.indexOf("?SHREG_ON60") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON60") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin60, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin60, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF60") > -1) /// 2
-                    {
-                        digitalWrite(ledPin60, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF60") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin60, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////61
+                    //   ////////////////////////////////////////////////////////////61
 
-                     if(readString.indexOf("?SHREG_ON61") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON61") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin61, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin61, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF61") > -1) /// 2
-                    {
-                        digitalWrite(ledPin61, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF61") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin61, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////62
+                    //   ////////////////////////////////////////////////////////////62
 
-                     if(readString.indexOf("?SHREG_ON62") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON62") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin62, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin62, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF62") > -1) /// 2
-                    {
-                        digitalWrite(ledPin62, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF62") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin62, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      ////////////////////////////////////////////////////////////63
+                    //   ////////////////////////////////////////////////////////////63
 
-                     if(readString.indexOf("?SHREG_ON63") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON63") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin63, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin63, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF63") > -1) /// 2
-                    {
-                        digitalWrite(ledPin63, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF63") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin63, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                       /////////////////////////////////////////////////////////////64
+                    //    /////////////////////////////////////////////////////////////64
 
-                     if(readString.indexOf("?SHREG_ON64") > -1) /// 2
-                    {
+                    //  if(readString.indexOf("?SHREG_ON64") > -1) /// 2
+                    // {
                       
-                        digitalWrite(ledPin64, HIGH);//test
-                       // Serial.println("2_ON");
-                    }
+                    //     digitalWrite(ledPin64, HIGH);//test
+                    //    // Serial.println("2_ON");
+                    // }
 
-                    if(readString.indexOf("?SHREG_OFF64") > -1) /// 2
-                    {
-                        digitalWrite(ledPin64, LOW);
-                       //  Serial.println("2_LOW");
-                    }
+                    // if(readString.indexOf("?SHREG_OFF64") > -1) /// 2
+                    // {
+                    //     digitalWrite(ledPin64, LOW);
+                    //    //  Serial.println("2_LOW");
+                    // }
 
-                      /////////////////////////////////////////////////////////////
-
-                     
-
-                    ///////////////////////////////////////////////////////////////////////////
-                    ///////////////////////////////////////////////////////////////////////////
+                      ////////////////////////////////////////////////////////////
 
 
 
-
-
-
-                    else{
+                    else{{
                         if(readString.indexOf("?DAC_OFF") > -1) //checks for LEDOFF
                         {
                            
@@ -1502,4 +1494,4 @@ float busvoltage_OUT = 0;
     // клиент отключился
     Serial.println("Client disconnected");
   }
-}
+}}
