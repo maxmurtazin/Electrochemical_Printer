@@ -1,6 +1,3 @@
-#include <Arduino_Helpers.h> // Include the Arduino Helpers library.
-#include <AH/Hardware/ExtendedInputOutput/ShiftRegisterOut.hpp>
-using namespace ExtIO; // Bring the ExtIO pin functions into your sketch
 
 #include "Wire.h"
 
@@ -13,19 +10,16 @@ using namespace ExtIO; // Bring the ExtIO pin functions into your sketch
 #include <Dns.h>
 #include <Dhcp.h>
 
-const pin_t latchPin = 3; // Pin connected to ST_CP of 74HC595 (violet_T)
-const pin_t dataPin = 2;  // Pin connected to DS of 74HC595 (grey_D)
-const pin_t clockPin = 4; // Pin connected to SH_CP of 74HC595 (blue_H)
 
 
-// Instantiate a shift register on the correct pins, most significant bit first,
-// and a total of 8 outputs.
-ShiftRegisterOut<64> sreg {dataPin, clockPin, latchPin, MSBFIRST};//количество пинов сдвигового регистра
-//// SH REG
-const pin_t ledPin1 = sreg.pin(0); //1 
-const pin_t ledPin2 = sreg.pin(1);
-const pin_t ledPin3 = sreg.pin(2); 
-const pin_t ledPin4 = sreg.pin(3);
+int latchPin = 3;
+int clockPin = 4;
+int dataPin = 2;
+
+int numOfRegisters = 1;
+byte* registerState;
+
+
 /************************* Ethernet Client Setup *****************************/
 byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
 
@@ -67,6 +61,19 @@ Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAM
 /*************************** Sketch Code ************************************/
 
 void setup() {
+
+
+  	//Initialize array
+	registerState = new byte[numOfRegisters];
+	for (size_t i = 0; i < numOfRegisters; i++) {
+		registerState[i] = 0;
+	}
+
+	//set pins to output so you can control the shift register
+	pinMode(latchPin, OUTPUT);
+	pinMode(clockPin, OUTPUT);
+	pinMode(dataPin, OUTPUT);
+  //////////////////////////////////////
   Serial.begin(115200);
 
   Serial.println(F("Adafruit MQTT demo"));
@@ -80,7 +87,35 @@ void setup() {
   mqtt.subscribe(&onoffbutton);
 }
 
+void regWrite(int pin, bool state){
+	//Determines register
+	int reg = pin / 8;
+	//Determines pin for actual register
+	int actualPin = pin - (8 * reg);
+
+	//Begin session
+	digitalWrite(latchPin, LOW);
+
+	for (int i = 0; i < numOfRegisters; i++){
+		//Get actual states for register
+		byte* states = &registerState[i];
+
+		//Update state
+		if (i == reg){
+			bitWrite(*states, actualPin, state);
+		}
+
+		//Write
+		shiftOut(dataPin, clockPin, MSBFIRST, *states);
+	}
+
+	//End session
+	digitalWrite(latchPin, HIGH);
+}
+
+
 float x=0;
+
 
 void loop() {
   // Ensure the connection to the MQTT server is alive (this will make the first
@@ -97,25 +132,25 @@ void loop() {
       String status = (char *)onoffbutton.lastread;
       Serial.println(status);
       if(status.equals("on1")){
-        digitalWrite(ledPin1,HIGH);
+        regWrite(0,HIGH);
         }
       
-     if(status.equals("of1")){digitalWrite(ledPin1,LOW);
+     if(status.equals("of1")){regWrite(2,LOW);
      }
     }
 
     
   }
 
-  // Now we can publish stuff!
-  // Serial.print(F("\nSending photocell val "));
-  // Serial.print(x);
-  // Serial.print("...");
-  // if (! photocell.publish(x++)) {
-  //   Serial.println(F("Failed"));
-  // } else {
-  //   Serial.println(F("OK!"));
-  // }
+  //Now we can publish stuff!
+  Serial.print(F("\nSending photocell val "));
+  Serial.print(x);
+  Serial.print("...");
+  if (! photocell.publish(x++)) {
+    Serial.println(F("Failed"));
+  } else {
+    Serial.println(F("OK!"));
+  }
 
   // ping the server to keep the mqtt connection alive
   if(! mqtt.ping()) {
